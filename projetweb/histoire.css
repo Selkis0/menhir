@@ -1,0 +1,214 @@
+*
+{
+   padding:0px;
+   margin:0px;
+   /* Permet d'éviter les marges latérales */
+}
+
+html 
+{
+   background-color:rgba(218, 232, 129, 0.347);
+
+}
+
+header
+{
+   margin-bottom:50px;
+   background-color:rgb(47, 77, 48);
+   
+}
+
+nav
+{
+   background-color:rgb(47, 77, 48);
+   color:white;
+   height:70px;
+   position:fixed; /* Permet de fixer la barre de nav à l'écran */
+   z-index:1; /* S'assure que la barre de nav s'affiche par-dessus les autres éléments */
+
+}
+
+nav > div
+{
+   display:inline; /* Aligne les différentes div de la barre de nav */
+   font-size:xx-large;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   margin-left:150px;
+   margin-right:250px;
+
+}
+
+nav a
+{
+   color:white;
+   text-decoration:none; /* Permet d'éviter que les liens de la nav soient soulignés */
+   font-style:oblique;
+
+}
+
+nav a:hover
+{
+   color:grey;
+
+}
+
+#headimg 
+{
+   object-fit:cover;
+   width:100%;
+   height:600px;
+   margin-top:70px;
+
+}   
+
+blockquote 
+{
+   text-align:center;
+   color:black;
+   padding-bottom:80px;
+
+}
+
+p 
+{
+   /* Régit le texte des paragraphes */
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+
+footer button
+{
+   /* Paramètre les boutons intégrés au footer */
+   position:relative;
+   left:56px;
+   bottom:45px;
+   background-color:rgb(203, 238, 238);
+   color:blue;
+   padding-top:37px;
+   padding-bottom:41px;
+   width:120px;
+   border:2px solid blue;
+
+}
+
+button:hover
+{
+   /* Fait comprendre au visiteur que les boutons sont cliquables */
+   cursor:pointer;
+
+}
+
+#bouton
+{
+   position:relative;
+   left:646px;
+   bottom:203px;
+
+}
+
+#stmichel
+{
+   height:110px;
+   position:relative;
+   left:50px;
+   border:2px solid blue;
+
+}
+
+#mairiedol
+{
+   position:relative;
+   left:640px;
+   bottom:158px;
+   height:110px;
+   border:2px solid blue;
+
+}
+
+#conta
+{
+   position:relative;
+   left:1130px;
+   bottom:316px;
+   height:110px;
+   border:2px solid blue;
+
+}
+
+#finish
+{
+   position:relative;
+   left:200px;
+   bottom:180px;
+   font-size:200%;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   color:blue;
+}
+
+#ending
+{
+   object-fit:cover;
+   width:100%;
+   position:relative;
+   bottom:200px;
+   border:5px solid rgb(47, 77, 48);
+   border-left:0px;
+   border-right:0px;
+
+}
+
+h1
+{
+   text-align:center;
+   color:rgb(144, 12, 12);
+   
+}
+
+h2 
+{
+   /* Régit les titres de paragraphes */
+   color:rgb(144, 12, 12);
+   font-variant:small-caps;
+
+}
+
+#vieux
+{
+   height:300px;
+   float:left;
+   margin-left:130px;
+   border:solid black 5px;
+}
+
+#monu
+{
+   height:250px;
+   float:right;
+   margin-right:150px;
+   border:solid black 5px;
+
+}
+
+#monuDeux
+{
+   float:right;
+   height:250px;
+   margin-right:50px;
+   border:solid black 5px;
+
+}
+
+#pUn
+{
+   width:700px;
+   text-align:justify;
+   margin-left:650px;
+   margin-top:0px;
+
+}
+
+#pDeux
+{
+   width:700px;
+   margin-left:170px;
+}
